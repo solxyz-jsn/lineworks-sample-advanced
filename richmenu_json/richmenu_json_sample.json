@@ -27,7 +27,7 @@
                 "width": 2500,
                 "height": 421
             },
-             "action": {
+            "action": {
                 "type": "message",
                 "label": "ボタンBを押下",
                 "displayText": "ボタンB",
