@@ -1,0 +1,53 @@
+{
+    "size": {
+        "width": 2500,
+        "height": 1686
+    },
+    "richmenuName": "richmenu_sample",
+    "areas": [
+        {
+            "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 2500,
+                "height": 843
+            },
+            "action": {
+                "type": "message",
+                "label": "ボタンAを押下",
+                "displayText": "ボタンA",
+                "text": "ボタンA",
+                "postback": "buttonA"
+            }
+        },
+        {
+            "bounds": {
+                "x": 0,
+                "y": 843,
+                "width": 2500,
+                "height": 421
+            },
+             "action": {
+                "type": "message",
+                "label": "ボタンBを押下",
+                "displayText": "ボタンB",
+                "text": "ボタンB",
+                "postback": "buttonB"
+            }
+        },{
+            "bounds": {
+                "x": 0,
+                "y": 1264,
+                "width": 2500,
+                "height": 422
+            },
+            "action": {
+                "type": "message",
+                "label": "ボタンCを押下",
+                "displayText": "ボタンC",
+                "text": "ボタンC",
+                "postback": "buttonC"
+            }
+        }
+    ]
+}
