@@ -17,7 +17,7 @@
 
 ## 該当コース
 
-コース「LINE WORKS API応用」より、「ステップ4：リッチメニューの定義」を参照してください。
+[SOLXYZ Academy](https://academy.solxyz.co.jp)内コース「LINE WORKS API応用」より、「ステップ4：リッチメニューの定義」を参照してください。
 
 ## 使用方法
 
