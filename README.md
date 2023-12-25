@@ -26,31 +26,25 @@ LINE WORKS APIとBotを利用したサンプルコードです。Callbackに含�
 - ボタンテンプレート
 - カルーセルテンプレート
 
-その他のメッセージの種類については、次の公式ドキュメントを参照してください。
-
-メッセージタイプ：<https://developers.worksmobile.com/jp/docs/bot-send-content>
+その他のメッセージの種類については、[メッセージタイプに関する公式ドキュメント](https://developers.worksmobile.com/jp/docs/bot-send-content)を参照してください。
 
 ## 使用方法
 
 ### 前提条件
 
-- Visual Studio Code（バージョン1.82以上）がインストール済み
-- Gradleがインストール済み
-- Java SE 17（LTS）がインストール済み
-- GitHubのアカウントを作成済み
-- Gitがインストール済み
+- [Visual Studio Code](https://code.visualstudio.com/download)（バージョン1.82以上）がインストール済み
+- [Gradle](https://gradle.org/releases/)がインストール済み
+- [Java SE 17（LTS）](https://www.oracle.com/jp/java/technologies/downloads/)がインストール済み
+- [GitHub](https://github.co.jp/)のアカウントを作成済み
+- [Git](https://gitforwindows.org/)がインストール済み
 
-各種のインストール方法は省略します。
+各種のインストール方法およびアカウント作成方法はリンク先を参照してください。
 
 ### 事前準備
 
-- LINE WORKSのアカウントを新規開設
+- [LINE WORKSのアカウントを新規開設](https://join.worksmobile.com/jp/joinup/step1)
 
-アカウント新規作成：<https://join.worksmobile.com/jp/joinup/step1>
-
-- Developer Consoleから`Bot`と`アプリ`を新規作成
-
-Developer Console：<https://dev.worksmobile.com/jp/console/openapi/v2/app/list/view>
+- [Developer Console](https://dev.worksmobile.com/jp/console/openapi/v2/app/list/view)から`Bot`と`アプリ`を新規作成
 
 - 本プロジェクト内の[application.properties](./src/main/resources/application.properties)で設定している環境変数の値を更新（値はすべてDeveloper Consoleから取得できます）
 
@@ -104,9 +98,7 @@ Visual Studio Code上でターミナルを開いてください。
 
 #### Callback URL設定
 
-LINE WORKSがCallbackをアプリケーションへ送信できるように、Developer ConsoleのBot画面からCallbackの送信先URL（以降、Callback URL）を設定します。
-
-Developer Console Bot画面：<https://dev.worksmobile.com/jp/console/bot/view>
+LINE WORKSがCallbackをアプリケーションへ送信できるように、[Developer ConsoleのBot画面](https://dev.worksmobile.com/jp/console/bot/view)からCallbackの送信先URL（以降、Callback URL）を設定します。
 
 Callback URL入力欄には、次の値を入力してください。
 
